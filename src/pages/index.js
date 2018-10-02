@@ -47,7 +47,7 @@ display: inline-block;
 const IndexPage = () => (
   <Layout>
     <Image src={logo} alt='something here'/>
-    <Title>PROMO PAGAE 1</Title>
+    <Title>CURRENT DEALS</Title>
     <Par1>For over 65 years of great food, friendly faces, and quick casual service, Bar-B-Cutie® SmokeHouse is second to none! We pride ourselves on the quality of our cooking, the contentment of our guests, and the continuity of our business. </Par1>
     <Par1>So when you have that familiar craving for a mouth-waterin’ meal, you need to Get Your Booty To Bar-B-Cutie!</Par1>
     <Button href="https://www.bar-b-cutie.com">Get To Know Us</Button> 

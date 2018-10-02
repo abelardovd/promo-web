@@ -4,34 +4,53 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 
 
-import logo from '../images/bbcutie-logo.png'
+import promo1 from '../images/promo1.png'
 
 const Title = styled.h1`
   font-size: 1.5em;
   text-align: center;
-  color: black;
+  color:  #404040;
+  position: absolute;
+  left: 500px;
+    top: 0px;
 `
 const Par1 = styled.h1`
+
   font-size: 0.9em;
   text-align: center;
   color: gray;
+  position: absolute;
+    left: 250px;
+    top: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 50%;
+    z-index: -1;
 `
 
 const Image = styled.img`
+    background-color: lightgray;
 display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
+    position: absolute;
+    left: 500px;
+    top: 200px;
 `
 const Button = styled.a`
 
 display: inline-block;
-    position: relative;
+    position: absolute;
+    left: 300px;
+    top: 200px;
     color: rgb(17, 17, 17);
     font-weight: bold;
     overflow: hidden;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 100px 15px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(170, 170, 170);
@@ -46,12 +65,10 @@ display: inline-block;
 
 const IndexPage = () => (
   <Layout>
-    <Image src={logo} alt='something here'/>
+    <Image src={promo1} alt='something here'/>
     <Title>CURRENT DEALS</Title>
-    <Par1>For over 65 years of great food, friendly faces, and quick casual service, Bar-B-Cutie® SmokeHouse is second to none! We pride ourselves on the quality of our cooking, the contentment of our guests, and the continuity of our business. </Par1>
-    <Par1>So when you have that familiar craving for a mouth-waterin’ meal, you need to Get Your Booty To Bar-B-Cutie!</Par1>
-    <Button href="https://www.bar-b-cutie.com">Get To Know Us</Button> 
-    <Button href="https://www.bar-b-cutie.com/bbq/history/" >Read Our Story</Button>
+    <Par1>01X100F PROMO NAME HERE 65,699 100,000 BUY NOW</Par1>
+    <Button href="https://www.bar-b-cutie.com">Buy know</Button> 
     
     
     

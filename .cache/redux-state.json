@@ -613,12 +613,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-02T06:21:24.815Z",
+      "buildTime": "2018-10-02T06:49:47.293Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f47039ac21b402c9f57cc92a97451711",
+        "contentDigest": "6de6e6d9e2c3762e80609c3426408242",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

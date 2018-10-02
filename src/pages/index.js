@@ -8,6 +8,7 @@ import promo1 from '../images/promo1.png'
 import promo2 from '../images/promo2.png'
 
 
+
 const Title = styled.h1`
   font-size: 4.5em;
   text-align: center;
@@ -21,15 +22,15 @@ padding: 100px 15px;
 
   font-size: 0.9em;
   text-align: center;
-  color: gray;
+  color: black;
   position: absolute;
-    left: 230px;
-    top: 150px;
+    left: 210px;
+    top: 180px;
     border-width: 5px;
     border-style: solid;
     border-color: black;
     width: 30%;
-    height: 50%;
+    height: 40%;
     z-index: -1;
 `
 
@@ -38,7 +39,7 @@ padding: 100px 15px;
 
   font-size: 0.9em;
   text-align: center;
-  color: gray;
+  color: black;
   position: absolute;
     left: 650px;
     top: 550px;
@@ -73,18 +74,18 @@ const Button = styled.a`
 
 display: inline-block;
     position: absolute;
-    left: 300px;
-    top: 280px;
+    left: 250px;
+    top: 340px;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding: 100px 30px;
+    padding: 50px 30px;
     border-width: 2px;
     border-style: solid;
     border-color: gray;
     border-image: initial;
     width: 15%;
-    height: 18%;
+    height: 10%;
     :hover {
       background-color: #555555;
       color: white;
@@ -98,17 +99,17 @@ const Button2 = styled.a`
 display: inline-block;
     position: absolute;
     left: 750px;
-    top: 680px;
+    top: 700px;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding: 100px 30px;
+    padding: 50px 30px;
     border-width: 2px;
     border-style: solid;
     border-color: gray;
     border-image: initial;
     width: 15%;
-    height: 18%;
+    height: 10%;
     :hover {
       background-color: #555555;
       color: white;
@@ -119,6 +120,7 @@ display: inline-block;
 
 
 const IndexPage = () => (
+  
   <Layout>
     <Title>CURRENT DEALS</Title>
     <Image src={promo1} alt='something here'/>

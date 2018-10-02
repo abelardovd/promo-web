@@ -13,7 +13,7 @@ const Title = styled.h1`
   text-align: center;
   color:  #404040;
   position: absolute;
-  left: 380px;
+  left: 300px;
     top: 0px;
 `
 const Par1 = styled.h1`

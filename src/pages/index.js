@@ -13,9 +13,7 @@ const Title = styled.h1`
   font-size: 4.5em;
   text-align: center;
   color:  #404040;
-  position: absolute;
-  left: 300px;
-    top: 0px;
+  
 `
 const Par1 = styled.h1`
 padding: 100px 15px;
@@ -24,7 +22,7 @@ padding: 100px 15px;
   text-align: center;
   color: black;
   position: absolute;
-    left: 210px;
+    left: 50px;
     top: 180px;
     border-width: 5px;
     border-style: solid;
@@ -41,13 +39,13 @@ padding: 100px 15px;
   text-align: center;
   color: black;
   position: absolute;
-    left: 650px;
-    top: 550px;
+    left: 490px;
+    top: 540px;
     border-width: 5px;
     border-style: solid;
     border-color: black;
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     z-index: -1;
 `
 
@@ -57,8 +55,8 @@ const Image = styled.img`
     margin-right: auto;
     width: 36%;
     position: absolute;
-    left: 500px;
-    top: 200px;
+    left: 250px;
+    top: 250px;
 `
 
 const Image2 = styled.img`
@@ -67,14 +65,14 @@ const Image2 = styled.img`
     margin-right: auto;
     width: 36%;
     position: absolute;
-    left: 300px;
+    left: 270px;
     top: 600px;
 `
 const Button = styled.a`
 
 display: inline-block;
     position: absolute;
-    left: 250px;
+    left: 80px;
     top: 340px;
     color: black;
     font-weight: bold;
@@ -98,7 +96,7 @@ const Button2 = styled.a`
 
 display: inline-block;
     position: absolute;
-    left: 750px;
+    left: 580px;
     top: 700px;
     color: black;
     font-weight: bold;

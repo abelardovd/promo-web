@@ -53,10 +53,10 @@ const Image = styled.img`
     background-color: #dcdcd4;
     margin-left: auto;
     margin-right: auto;
-    height: 30%;
-    width: 50%;
+    height: 20%;
+    width: 30%;
     position: absolute;
-    left: 300px;
+    left: 1000px;
     top: 210px;
 `
 

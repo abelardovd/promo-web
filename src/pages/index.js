@@ -22,12 +22,12 @@ padding: 80px 10px;
   text-align: center;
   color: black;
   position: absolute;
-    left: 20px;
-    top: 180px;
-    border-width: 5px;
+    left: 30px;
+    top: 150px;
+    border-width: 3px;
     border-style: solid;
     border-color: black;
-    width: 40%;
+    width: 50%;
     height: 20%;
     z-index: -1;
 `
@@ -53,10 +53,11 @@ const Image = styled.img`
     background-color: #dcdcd4;
     margin-left: auto;
     margin-right: auto;
+    height: 30%;
     width: 50%;
     position: absolute;
-    left: 100px;
-    top: 250px;
+    left: 300px;
+    top: 210px;
 `
 
 const Image2 = styled.img`
@@ -69,23 +70,22 @@ const Image2 = styled.img`
     top: 600px;
 `
 const Button = styled.a`
-font-size: 0.2em;
+font-size: .7em;
 text-align: center;
 
 display: inline-block;
     position: absolute;
     left: 80px;
-    top: 340px;
+    top: 250px;
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding: 30px 20px;
     border-width: 2px;
     border-style: solid;
     border-color: gray;
     border-image: initial;
-    width: 10%;
-    height: 5%;
+    width: 20%;
+    height: 7%;
     :hover {
       background-color: #555555;
       color: white;
